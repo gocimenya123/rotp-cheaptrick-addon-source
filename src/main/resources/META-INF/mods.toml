@@ -1,0 +1,31 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="GNU GPL v3.0"
+
+[[mods]]
+modId="cheaptrickaddon"
+version="${file.jarVersion}"
+displayName="Cheap Trick Addon (Ripples of the Past)"
+authors="Gocimenya"
+description='''
+Стенд Cheap Trick для Ripples of the Past: проклятие, сидящее на спине носителя.
+'''
+
+[[dependencies.cheaptrickaddon]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.cheaptrickaddon]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.cheaptrickaddon]]
+    modId="jojo"
+    mandatory=true
+    versionRange="[0.2.2,0.3)"
+    ordering="AFTER"
+    side="BOTH"
